@@ -1,0 +1,6 @@
+env BIN="<%= @bin_dir %>"
+env CASSANDRA_INCLUDE="<%= @bin_dir %>"/cassandra.in.sh
+
+script
+  CASSANDRA_INCLUDE="$BIN"/cassandra.in.sh "$BIN"/cassandra -f
+end script

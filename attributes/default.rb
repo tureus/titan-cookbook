@@ -1,0 +1,1 @@
+default[:titan][:server][:tarball][:url] = "http://s3.thinkaurelius.com/downloads/titan/titan-0.5.3-hadoop2.zip"

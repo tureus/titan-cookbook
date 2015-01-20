@@ -1,0 +1,5 @@
+env BIN="<%= @bin_dir %>"
+env REXSTER_CONFIG_TAG=<%= @config_tag %>
+script
+  "$BIN"/rexster.sh -s -wr public -c ../conf/rexster-${REXSTER_CONFIG_TAG}.xml
+end script
