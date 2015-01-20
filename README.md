@@ -1,10 +1,10 @@
 # titan-cookbook
 
-A naïve cookbook for installing titan server package in to an Ubuntu 14.04 server. Uses the bundled Cassandra/Rexster and manages them through upstart.
+A naïve cookbook for installing titan server package in to an Ubuntu 14.04 server. Uses the bundled Cassandra/Rexster and manages them through upstart. Bring your own Java install.
 
 ## Supported Platforms
 
-Ubuntu 14.04 is the only platform tested
+Ubuntu 14.04 is the only platform tested. Java used: "OpenJDK Runtime Environment (IcedTea 2.5.3) (7u71-2.5.3-0ubuntu0.14.04.1)"
 
 ## Attributes
 
